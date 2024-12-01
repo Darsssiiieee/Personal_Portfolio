@@ -1,0 +1,77 @@
+
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+html {
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+.modal-container {
+  padding: 1rem 1rem 1rem 2rem;
+  min-width: 100%;
+}
+.section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  font-family: "Metal Mania";
+}
+.content p {
+  line-height: 1.4;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.content .current {
+  color: rgb(24, 71, 129);
+  font-weight: 700;
+}
+
+ /* About */
+ #about .about {
+  flex-direction: row;
+}
+#about .col-left {
+  width: 600px;
+  height: 300px;
+  padding-left: 60px;
+}
+
+#about .col-left h1 {
+ float: right;
+ margin-top: 20%;
+ margin-right: 50px;
+ font-size: 40px;
+ font-weight: bolder;
+}
+.circle-image img {
+  background-image: url('/assets/img/LOTINO.jpg');
+  border: 6px solid #c8cfd6;
+  margin-top: 10%;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.button{
+  width: 50%;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.button button{
+  width: 50%;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #3d0041d0;
+  border-radius: 40px;
+}
+.button button:hover{
+  background-color: #9b2ca3cf;
+}
+/* End About */
